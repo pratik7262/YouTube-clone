@@ -1,9 +1,9 @@
 import React from 'react'
-import { useToggle } from "@hooks/useToggle";
+import { useToggle } from "../hooks/useToggle";
 import { Box } from '@mui/system';
 import { Button, Menu, MenuItem, Typography } from '@mui/material';
 import { RiVideoUploadFill } from "react-icons/ri";
-import { uploadMenuItems } from "@data/app.data";
+import { uploadMenuItems } from "../data/app.data";
 
 
 export const Upload = () => {

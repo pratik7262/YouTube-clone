@@ -1,7 +1,7 @@
 import React from 'react'
-import { sideListItems } from "@data/app.data";
+import { sideListItems } from "../data/app.data";
 import { Box, Divider, List, ListItemButton, ListItemIcon,ListItem, ListItemText, Typography } from '@mui/material';
-import { sideListWrapper } from "@styles/styles";
+import { sideListWrapper } from "../styles/styles.js";
 
 export const SideBar = () => {
     return (

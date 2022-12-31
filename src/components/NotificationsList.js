@@ -1,8 +1,8 @@
 import { Avatar, Button, Divider, Link, List, ListItem, ListItemAvatar, ListItemText, Menu, Typography } from '@mui/material'
 import { BsBellFill } from "react-icons/bs";
-import { useToggle } from "@hooks/useToggle";
-import { notificationData } from "@data/app.data";
-import { notificationWrapper, inlineText } from "@styles/styles";
+import { useToggle } from "../hooks/useToggle";
+import { notificationData } from "../data/app.data";
+import { notificationWrapper, inlineText } from "../styles/styles";
 import React from 'react'
 import { Box } from '@mui/system';
 

@@ -1,10 +1,10 @@
 import "./App.css";
 import { React, useState } from "react";
-import { AppNavBar } from "@navigation/AppNavBar";
 import { Box, useMediaQuery, } from "@mui/material";
-import { appWrapper } from "@styles/styles.js";
-import { AppContentArea } from "@components/AppContentArea";
 import { NotResponsive } from "./components/NotResponsive";
+import { appWrapper } from "./styles/styles";
+import { AppContentArea } from "./components/AppContentArea";
+import { AppNavBar } from "./components/navigation/AppNavBar";
 
 function App() {
   const isGood =useMediaQuery('(min-width:1100px)');

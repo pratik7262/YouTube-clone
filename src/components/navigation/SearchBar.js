@@ -1,7 +1,7 @@
 import { Box } from '@mui/system'
 import React from 'react'
 import {BsFillMicFill  } from "react-icons/bs";
-import { flexAlignCenter, searchBar } from "@styles/styles.js";
+import { flexAlignCenter, searchBar } from "../../styles/styles";
 import { Button, IconButton, InputBase, Paper } from '@mui/material';
 import { Search } from '@mui/icons-material';
 

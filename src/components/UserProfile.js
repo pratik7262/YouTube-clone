@@ -1,10 +1,10 @@
 import { Avatar, Button, Divider, Link, List, ListItem, ListItemAvatar, ListItemButton, ListItemIcon, ListItemText, Menu, Typography } from '@mui/material'
-import { inlineText } from "@styles/styles.js";
+import { inlineText } from "../styles/styles";
 import { FaUserCircle } from "react-icons/fa";
-import { userProfileItems } from "@data/app.data";
+import { userProfileItems } from "../data/app.data";
 import { Box } from '@mui/system'
 import React from 'react'
-import { useToggle } from "@hooks/useToggle";
+import { useToggle } from "../hooks/useToggle";
 
 export const UserProfile = () => {
     const {el,open,onClick,onClose}=useToggle();

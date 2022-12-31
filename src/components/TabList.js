@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { tabItems } from "@data/app.data";
+import { tabItems } from "../data/app.data";
 import { Box, Tab, Tabs } from '@mui/material';
 
 export const TabList = () => {

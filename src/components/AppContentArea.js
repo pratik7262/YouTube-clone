@@ -1,10 +1,10 @@
 import React from 'react'
 import { Box } from '@mui/material';
-import { appContentWrapper, flexColumnGrow } from "@styles/styles";
+import { appContentWrapper, flexColumnGrow } from "../styles/styles";
 import { SideBar } from './SideBar';
-import { TabList } from '@components/TabList';
-import { AppCardList } from '@components/AppCardList';
-import { youtubeResponse } from "@data/app.data";
+import { TabList } from './TabList';
+import { AppCardList } from './AppCardList';
+import { youtubeResponse } from "../data/app.data";
 
 export const AppContentArea = ({ isOpen }) => {
   const item1=youtubeResponse.slice(0,8)

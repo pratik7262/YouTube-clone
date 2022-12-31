@@ -5,11 +5,11 @@ import React from 'react'
 
 import {
     appBar, toolbarWrapper, flexAlignCenter, logoText, hideOnMobile
-} from '@styles/styles.js'
+} from '../../styles/styles'
 import { Menu } from '@mui/icons-material'
 import { SearchBar } from './SearchBar'
-import { UserProfile } from '@components/UserProfile'
-import { NotificationsList } from '@components/NotificationsList'
+import { UserProfile } from '../UserProfile'
+import { NotificationsList } from '../NotificationsList'
 // import { Upload } from '@components/Upload'
 
 export const AppNavBar = (props) => {
