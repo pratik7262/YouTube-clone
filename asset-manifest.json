@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.93dea003.css",
-    "main.js": "/my-app/static/js/main.5eb11cdc.js",
-    "index.html": "/my-app/index.html",
-    "main.5eb11cdc.js.map": "/my-app/static/js/main.5eb11cdc.js.map"
+    "main.css": "/YouTube-clone/static/css/main.93dea003.css",
+    "main.js": "/YouTube-clone/static/js/main.5eb11cdc.js",
+    "index.html": "/YouTube-clone/index.html",
+    "main.5eb11cdc.js.map": "/YouTube-clone/static/js/main.5eb11cdc.js.map"
   },
   "entrypoints": [
     "static/css/main.93dea003.css",
